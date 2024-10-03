@@ -21,11 +21,11 @@ ul {
   padding-left: 0;
 }
 
-img {
+/* img {
   display: block;
   width: 100%;
   height: auto;
-}
+} */
 
 .list {
   list-style: none;
@@ -37,7 +37,6 @@ img {
 }
 
 .container {
-  max-width: 430px;
   margin: 0 auto;
   background: url("./images/background.jpg");
   display: flex;
@@ -45,11 +44,12 @@ img {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-size: cover;
-  background-position: center;
+  background-size: contain; /* Адаптивний фон */
+  background-position: center; /* Центр зображення */
   background-repeat: no-repeat;
-  padding-top: 100px;
 }
+
+
 
 .button {
   cursor: pointer;
@@ -67,4 +67,5 @@ img {
   align-items: center;
   color: #000000;
   background: #ffffff;
+  margin-top: 70px;
 }
