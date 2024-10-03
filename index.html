@@ -37,25 +37,21 @@
         "https://connect.facebook.net/en_US/fbevents.js"
       );
       fbq("init", "904351028202790");
-      fbq("track", "Lead");
+      fbq("track", "PageView");
     </script>
     <noscript
       ><img
         height="1"
         width="1"
         style="display: none"
-        src="https://www.facebook.com/tr?id=904351028202790&ev=Lead&noscript=1"
+        src="https://www.facebook.com/tr?id=904351028202790&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
   </head>
   <body>
     <div class="container">
-      <a
-        class="link"
-        href="https://t.me/CULTIVARIYBOT"
-        onclick="trackButtonClick()"
-      >
-        <button class="button" type="button">
+      <a class="link" href="https://t.me/CULTIVARIYBOT">
+        <button class="button" type="button" onclick="trackButtonClick()">
           Отримати демо-лекцію про оподаткування експортних операцій
         </button>
       </a>
@@ -63,7 +59,7 @@
 
     <script>
       function trackButtonClick() {
-        fbq("trackCustom", "Lead");
+        fbq("trackCustom", "PageView");
       }
     </script>
   </body>
