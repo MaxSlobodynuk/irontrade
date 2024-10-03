@@ -70,8 +70,8 @@ ul {
   margin-top: 70px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .container {
     background-size: contain; /* Для екранів менше 600 пікселів */
-  }
-}
+  /* }
+} */ 
