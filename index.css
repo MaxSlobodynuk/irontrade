@@ -44,7 +44,7 @@ ul {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-size: contain; /* Адаптивний фон */
+  background-size: cover; /* Адаптивний фон */
   background-position: center; /* Центр зображення */
   background-repeat: no-repeat;
 }
@@ -68,4 +68,10 @@ ul {
   color: #000000;
   background: #ffffff;
   margin-top: 70px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    background-size: contain; /* Для екранів менше 600 пікселів */
+  }
 }
