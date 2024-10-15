@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Irontrade</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
     />
+
     <!-- Meta Pixel Code -->
     <script>
       !(function (f, b, e, v, n, t, s) {
@@ -50,17 +51,19 @@
   </head>
   <body>
     <div class="container">
-      <a class="link" href="https://t.me/CULTIVARIYBOT?start=66ffb31fefaa4ff2dd0128d7">
-        <button class="button" type="button" onclick="trackButtonClick()">
+      <header class="header">
+        <img src="/images/logo.png" alt="Культіварій" class="logo" />
+        <span class="club">Trend & Hedge Club</span>
+      </header>
+      <main class="main-content">
+        <h1>IRONTRADE</h1>
+        <p class="description">
+          Комплексний курс №1 в Україні про трейдинг для агровиробників
+        </p>
+        <button class="cta-button">
           Отримати демо-лекцію про оподаткування експортних операцій
         </button>
-      </a>
+      </main>
     </div>
-
-    <script>
-      function trackButtonClick() {
-        fbq("trackCustom", "PageView");
-      }
-    </script>
   </body>
 </html>

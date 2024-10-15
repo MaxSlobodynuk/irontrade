@@ -1,0 +1,210 @@
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  margin-top: 310px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#FFD100;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #000000; 
+  margin-bottom: 100px;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 0px;
+  max-width: 325px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  background: #ffffff;
+  margin-top: 70px;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+
+/* -------- */
+
+/* .main{
+  
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.club {
+    font-weight: bold;
+}
+
+
+.description {
+  max-width: 400px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffd100; /* Желтый фон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffd100;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  height: 65px;
+  margin-top: 15px;
+}
+
+.club {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.cta-button {
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e0e0e0;
+}
+
+@media (max-width: 320px) {
+  body {
+    padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .main-content h1 {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    max-width: 100%; /* На малых экранах кнопка будет занимать всю доступную ширину */
+  }
+}
